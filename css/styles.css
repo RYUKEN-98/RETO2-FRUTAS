@@ -1,0 +1,136 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva;
+    background-color: #E5EFDF;
+}
+header{
+    width: 100%;
+    height: 150px;
+    background-color: white;
+}
+header img{
+    margin: 30px 0 30px 30px;
+    float: center;
+}
+header .redes-sociales{
+    float: right;
+    margin: 30px 70px 0 0;
+    background-color: white;
+}
+header .redes-sociales i{
+    font-size: 30px;
+    margin-left: 15px;
+    background-color: transparent;
+}
+.fa-instagram{
+    color: #f2ac9d;
+}
+.fa-facebook{
+    color: #38b78d;
+}
+.fa-youtube{
+    color: #d72b39;
+}
+nav{
+    width: 100%;
+    height:60px;
+    text-align: center;
+    border: 1px solid #7bce1c;
+    background-color: #cec51c;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+nav ul{
+    background-color: #cec51c;
+}
+nav ul li{
+    display: inline;
+    font-size: 24px;
+    margin-left: 40px;
+    background-color: #cec51c;
+    
+}
+nav ul li a{
+    color: #d72b39;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 10px;
+
+}
+nav ul li a:hover{
+    background-color: #d72b39;
+    color: white;
+    border-radius: 10px;
+
+}
+.slider{
+    width: 100%;
+}
+.slider img{
+    width: 100%;
+}
+.categorias{
+    width: 100%;
+    padding: 30px;
+}
+.categorias img{
+    width: 100%;
+}
+.titulo h2{
+    text-align: center;
+    color: #d72b39;
+    margin: 70px;
+    
+}
+.cat1{
+    width: 40%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.cat2{
+    width: 40%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.cat3{
+    width: 40%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+h3{
+    background-color: white;
+}
+.cat1 p{
+    background-color: white;
+}
+.cat2 p{
+    background-color: white;
+}
+.cat3 p{
+    background-color: white;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color:#f2ac9d;;
+    
+}
+footer p{
+    color: white;
+    text-align: center;
+    padding: 30px;
+    background-color:#f2ac9d;;
+}
+.cat1:hover{
+    filter: grayscale();
+}
+.cat2:hover{
+    filter: grayscale();
+}
+.cat3:hover{
+    filter: grayscale();
+}
